@@ -1,0 +1,1 @@
+disini untuk configurasi db.js , gunakan mongodb
