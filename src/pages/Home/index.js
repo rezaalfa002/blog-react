@@ -8,7 +8,7 @@ import { setDataBlog } from '../../config/redux/action/homeAction';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import axios from 'axios';
-
+const url = 'https://reza-api.cyclic.app'
 const Home = () => {
   
   const [counter, setCounter] = useState(1) //penomoran pagination
@@ -44,7 +44,7 @@ const Home = () => {
         {
           label: 'Yes',
           onClick: () => {
-            axios.delete(`http://localhost:4000/v1/blog/post/${id}`)
+            axios.delete(url + `/v1/blog/post/${id}`)
             .then(res => {
               console.log('sukses delete' , res)
               dispatch(setDataBlog(counter)) //Async store dengan redux thunk/merefresh data
@@ -75,7 +75,7 @@ const Home = () => {
       {dataBlog.map (blog => {
       return <BlogItem 
       key={blog._id} 
-      image={`http://localhost:4000/${blog.image}`} 
+      image={url + `/${blog.image}`} 
       title={blog.title}
       body={blog.body}
       date={blog.createdAt}

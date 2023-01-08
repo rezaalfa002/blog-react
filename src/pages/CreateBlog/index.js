@@ -5,7 +5,7 @@ import {useHistory, withRouter} from 'react-router-dom' //untuk berpindah ke pag
 import axios from 'axios'
 import { postToAPI, setForm, setImgPreview, updateToAPI } from '../../config/redux/action';
 import {useSelector,useDispatch} from 'react-redux'
-
+const url = 'https://reza-api.cyclic.app/'
 const CreateBlog = (props) => {
   
 
@@ -26,13 +26,13 @@ const CreateBlog = (props) => {
     const id = props.match.params.id
     if(id) {
     setIsUpdate(true);
-    axios.get(`http://localhost:4000/v1/blog/post/${id}`)
+    axios.get(url + `/v1/blog/post/${id}`)
     .then(res => {
       const data = res.data.data
       console.log('res: ', data);
       dispatch(setForm('title',data.title))
       dispatch(setForm('body',data.body))
-      dispatch(setImgPreview(`http://localhost:4000/${data.image}`))
+      dispatch(setImgPreview(url + `/${data.image}`))
     })  
     .catch(err =>{
       console.log('err :', err)

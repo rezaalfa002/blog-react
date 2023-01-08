@@ -1,0 +1,2 @@
+git remote add origin https://github.com/rezaalfa002/blog-react.git
+npm run deploy
