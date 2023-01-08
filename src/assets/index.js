@@ -1,11 +1,9 @@
 import RegisterBG from './images/regis.jpg'
 import LoginBG from './images/login.jpg'
-import LogoKabayan from './images/soldier.png'
+import alfareza from './images/soldier.png'
 //icons
-import ICFacebook from "./icons/facebook.svg"
-import ICTwitter from "./icons/twitter.svg"
-import ICInstagram from "./icons/instagram.svg"
-import ICTelegram from "./icons/telegram.svg"
-import ICDiscord from "./icons/discord.svg"
-import ICGithub from "./icons/github.svg"
-export {RegisterBG,LoginBG,LogoKabayan,ICFacebook,ICTwitter,ICInstagram,ICTelegram,ICDiscord,ICGithub}
+import ICexpress from "./icons/express.png"
+import ICmongodb from "./icons/mongodb.png"
+import ICnodejs from "./icons/nodejs.png"
+import ICreact from "./icons/react.png"
+export {RegisterBG,LoginBG,alfareza,ICexpress,ICmongodb,ICnodejs,ICreact}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ICDiscord, ICFacebook, ICGithub, ICInstagram, ICTelegram, ICTwitter, LogoKabayan } from '../../../assets';
+import {alfareza, ICexpress,ICmongodb, ICnodejs, ICreact } from '../../../assets';
 import './footer.scss'
 const Icon = ({img}) =>{
     return (
@@ -13,15 +13,14 @@ const Footer = () => {
   <div>
       <div className='footer'>
           <div>
-              <img className='logo' src={LogoKabayan} alt="Soldier" />
+              <img className='logo' src={alfareza} alt="Soldier" />
           </div>
             <div className='social-wrapper'>
-                <Icon img={ICFacebook}  alt='facebook'/>
-                <Icon img={ICInstagram}  alt='facebook'/>
-                <Icon img={ICTelegram}  alt='facebook'/>
-                <Icon img={ICTwitter}  alt='facebook'/>
-                <Icon img={ICGithub}  alt='facebook'/>
-                <Icon img={ICDiscord}  alt='facebook'/>
+                <Icon img={ICmongodb}  alt=''/>
+                <Icon img={ICexpress}  alt=''/>
+                <Icon img={ICreact}  alt=''/>
+                <Icon img={ICnodejs}  alt=''/>
+        
                 
             </div>
       </div>
