@@ -1,2 +1,7 @@
 git remote add origin https://github.com/rezaalfa002/blog-react.git
 npm run deploy
+
+--UPDATE
+git add *
+git commit -m "ini adalah update"
+git push origin master

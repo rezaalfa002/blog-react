@@ -5,10 +5,9 @@ import {useHistory, withRouter} from 'react-router-dom' //untuk berpindah ke pag
 import axios from 'axios'
 import { postToAPI, setForm, setImgPreview, updateToAPI } from '../../config/redux/action';
 import {useSelector,useDispatch} from 'react-redux'
-const url = 'https://reza-api.cyclic.app/'
+const url = 'https://rz-app.adaptable.app/' 
 const CreateBlog = (props) => {
   
-
   const {form, imgPreview} = useSelector(state => state.createBlogReducer);
   const {title, body, image} = form;
   const dispatch = useDispatch();
@@ -44,10 +43,14 @@ const CreateBlog = (props) => {
     const id = props.match.params.id
     if(isUpdate){
       console.log('update data')
+      
       updateToAPI(form,id)
+
     } else{
       console.log('create data')
+      
       postToAPI(form)
+
     }
    
   }

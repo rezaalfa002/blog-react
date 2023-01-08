@@ -1,6 +1,6 @@
 import axios from "axios" //npm untuk API
 
-const url = 'https://reza-api.cyclic.app'
+const url = 'https://rz-app.adaptable.app/' 
 
 export const setForm = (formType, formValue) =>{
 return {type: 'SET_FORM_DATA', formType, formValue}
@@ -24,9 +24,11 @@ export const postToAPI = (form) => {
       })
       .then(res => {
       console.log('post success: ', res);
+      alert('post sucsess')
     })
       .catch(err => {
       console.log('err: ', err);
+      alert('post error')
     })
 }
 
@@ -43,8 +45,10 @@ export const updateToAPI = (form,id) => {
       })
       .then(res => {
       console.log('update success: ', res);
+      alert('update sucsess')
     })
       .catch(err => {
       console.log('err: ', err);
+      alert('update error')
     })
 }

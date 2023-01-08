@@ -8,7 +8,7 @@ import { setDataBlog } from '../../config/redux/action/homeAction';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import axios from 'axios';
-const url = 'https://reza-api.cyclic.app'
+const url = 'https://rz-app.adaptable.app/' 
 const Home = () => {
   
   const [counter, setCounter] = useState(1) //penomoran pagination
@@ -56,7 +56,7 @@ const Home = () => {
         },
         {
           label: 'No',
-          onClick: () => alert('Click No')
+          onClick: () => alert('canceled')
         }
       ]
     });
