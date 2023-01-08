@@ -1,10 +1,10 @@
 import axios from "axios";
-
+const url = 'https://rz-app.adaptable.app/'
 export const setDataBlog = (page) => {
 
     return (dispatch) => {
         
-    axios.get(`http://localhost:4000/v1/blog/posts?page=${page}&perPage=2`)//nyalain dulu backendnya
+    axios.get(url + `/v1/blog/posts?page=${page}&perPage=2`)//nyalain dulu backendnya
     .then(result => {
    
     const responseAPI = result.data;

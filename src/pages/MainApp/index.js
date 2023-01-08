@@ -6,6 +6,8 @@ import CreateBlog from '../CreateBlog';
 import DetailBlog from '../DetailBlog';
 import './mainApp.scss'
 
+
+
 const MainApp = () => {
   return (
   <div className='main-app-wrapper'>
