@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/http//:rezaalfa002.github.io/blog-react/static/css/main.f74e4f3a.css",
-    "main.js": "/http//:rezaalfa002.github.io/blog-react/static/js/main.69c0bb24.js",
+    "main.js": "/http//:rezaalfa002.github.io/blog-react/static/js/main.fbccc4d7.js",
     "static/media/regis.jpg": "/http//:rezaalfa002.github.io/blog-react/static/media/regis.ced6c7189a8617f99990.jpg",
     "static/media/login.jpg": "/http//:rezaalfa002.github.io/blog-react/static/media/login.90cdb09c233af767ecd7.jpg",
     "static/media/soldier.png": "/http//:rezaalfa002.github.io/blog-react/static/media/soldier.02f95a75a889dfd8935e.png",
@@ -13,10 +13,10 @@
     "index.html": "/http//:rezaalfa002.github.io/blog-react/index.html",
     "static/media/facebook.svg": "/http//:rezaalfa002.github.io/blog-react/static/media/facebook.f47bccd881622cda8bebb4be5c5dd489.svg",
     "main.f74e4f3a.css.map": "/http//:rezaalfa002.github.io/blog-react/static/css/main.f74e4f3a.css.map",
-    "main.69c0bb24.js.map": "/http//:rezaalfa002.github.io/blog-react/static/js/main.69c0bb24.js.map"
+    "main.fbccc4d7.js.map": "/http//:rezaalfa002.github.io/blog-react/static/js/main.fbccc4d7.js.map"
   },
   "entrypoints": [
     "static/css/main.f74e4f3a.css",
-    "static/js/main.69c0bb24.js"
+    "static/js/main.fbccc4d7.js"
   ]
 }
