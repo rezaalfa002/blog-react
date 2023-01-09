@@ -5,8 +5,8 @@ import {useHistory, withRouter} from 'react-router-dom' //untuk berpindah ke pag
 import { Gap, Link } from '../../components';
 import axios from 'axios';
 
-const url = 'https://rz-api.cyclic.app/'
- 
+const url = 'https://plum-beautiful-squid.cyclic.app'
+
 const DetailBlog = (props) => {
   const [data,setData]=useState({})
   useEffect(()=>{

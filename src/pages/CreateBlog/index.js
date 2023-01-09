@@ -5,7 +5,7 @@ import {useHistory, withRouter} from 'react-router-dom' //untuk berpindah ke pag
 import axios from 'axios'
 import { postToAPI, setForm, setImgPreview, updateToAPI } from '../../config/redux/action';
 import {useSelector,useDispatch} from 'react-redux'
-const url = 'https://rz-api.cyclic.app/'
+const url = 'https://plum-beautiful-squid.cyclic.app'
 
 const CreateBlog = (props) => {
   
