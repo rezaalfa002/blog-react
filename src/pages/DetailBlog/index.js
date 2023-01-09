@@ -6,6 +6,7 @@ import { Gap, Link } from '../../components';
 import axios from 'axios';
 
 const url = 'https://rz-api.cyclic.app/'
+ 
 const DetailBlog = (props) => {
   const [data,setData]=useState({})
   useEffect(()=>{

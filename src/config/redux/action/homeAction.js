@@ -1,5 +1,6 @@
 import axios from "axios";
 const url = 'https://rz-api.cyclic.app/' //backend yang sudah di deloy ke site
+
 export const setDataBlog = (page) => {
 
     return (dispatch) => {

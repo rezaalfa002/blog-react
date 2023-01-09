@@ -9,6 +9,7 @@ import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import axios from 'axios';
 const url = 'https://rz-api.cyclic.app/'
+
 const Home = () => {
   
   const [counter, setCounter] = useState(1) //penomoran pagination

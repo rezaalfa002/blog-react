@@ -6,6 +6,7 @@ import axios from 'axios'
 import { postToAPI, setForm, setImgPreview, updateToAPI } from '../../config/redux/action';
 import {useSelector,useDispatch} from 'react-redux'
 const url = 'https://rz-api.cyclic.app/'
+
 const CreateBlog = (props) => {
   
   const {form, imgPreview} = useSelector(state => state.createBlogReducer);
