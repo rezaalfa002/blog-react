@@ -1,7 +1,7 @@
 
 
 --UPDATE
-git add .
+git add *
 git commit -m "ini adalah update"
 git push
 
