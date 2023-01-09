@@ -8,7 +8,7 @@ import { setDataBlog } from '../../config/redux/action/homeAction';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import axios from 'axios';
-const url = 'https://plum-beautiful-squid.cyclic.app'
+const url = 'https://rz-app.adaptable.app/'
 
 const Home = () => {
   
