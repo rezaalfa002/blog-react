@@ -1,6 +1,6 @@
 import axios from "axios" //npm untuk API
 
-const url = 'https://rz-api.cyclic.app'
+const url = 'https://rz-api.adaptable.app'
 
 
 export const setForm = (formType, formValue) =>{
